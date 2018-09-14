@@ -46,7 +46,7 @@ class Player:
     def is_dead(self):
         return self._health_points <= 0
 
-    def player_attack(slef, GodZilla):
+    def player_attack(self, GodZilla):
         GodZilla.lower_hp_monster(self._damage)
         print("{} has damaged the monster".format(self.name))
         if GodZilla.monster_dead():
